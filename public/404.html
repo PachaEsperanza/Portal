@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <script>
+    var l = window.location;
+    var base = l.pathname.split('/').slice(0, 2).join('/');
+    var path = l.pathname.slice(base.length).replace(/^\//, '');
+    var search = l.search ? l.search.slice(1) : '';
+    var query = path + (search ? '&' + search : '');
+    l.replace(
+      l.protocol + '//' + l.host + base + '/' +
+      '?p=' + encodeURIComponent(query) +
+      (l.hash || '')
+    );
+  </script>
+</head>
+<body></body>
+</html>
