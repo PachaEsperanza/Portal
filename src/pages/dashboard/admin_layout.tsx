@@ -20,7 +20,7 @@ export default function AdminLayout() {
   return (
     <div className="min-h-screen flex flex-col relative">
       <div className="fixed inset-0 z-0"
-        style={{ backgroundImage: `url('${basePath}images/hero2.jpeg')`, backgroundSize: "cover", backgroundPosition: "center" }}>
+        style={{ backgroundImage: `url('${basePath}images/fondo.png')`, backgroundSize: "cover", backgroundPosition: "center" }}>
         <div className="absolute inset-0 bg-black/30" />
       </div>
       {/* Header admin */}
