@@ -752,7 +752,7 @@ export default function Registro() {
           </div>
           <div className="min-w-0">
             <label className={lbl}>Zona / ruta de acopio</label>
-            <input type="text" className={inp + " w-full min-w-0"} placeholder="Ej. Ruta Quillabamba Norte" value={data.zonaRuta} onChange={e => upd("zonaRuta", e.target.value)} />
+            <input type="text" className={inp + " w-full min-w-0"} placeholder="" value={data.zonaRuta} onChange={e => upd("zonaRuta", e.target.value)} />
           </div>
           <div className="min-w-0">
             <label className={lbl}>Fecha</label>
