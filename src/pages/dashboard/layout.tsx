@@ -40,7 +40,7 @@ export default function DashboardLayout() {
       <div
         className="fixed inset-0 z-0"
         style={{
-          backgroundImage: `url('${basePath}images/hero2.jpeg')`,
+          backgroundImage: `url('${basePath}images/fondo.png')`,
           backgroundSize: "cover",
           backgroundPosition: "center",
                   }}
